@@ -6,7 +6,7 @@ import About from './Component/About'
 import Detail from './Component/Detail'
 import Destination from './Component/Destination'
 import Experaince from './Component/Experaince'
-import Valley from './Component/valley'
+import Valley from './Component/Valley'
 import Partner from './Component/Partner'
 import Section from './Component/Section'
 
