@@ -1,11 +1,12 @@
 import React from 'react'
+import valleyImage from '../assets/images/valleyImage.jpg'; 
 
 const Hero = () => {
   return (
     <div className='mt-27'>
   <div className=" relative px-16 w-full h-full">
       <img
-        src="/images/valleyImage.jpg"
+        src={valleyImage}
         alt="Valley"
         className="w-full h-full  object-cover rounded-lg"
       />

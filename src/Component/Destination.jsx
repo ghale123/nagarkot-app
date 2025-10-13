@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import waterfallImg from '../assets/images/waterfall.jpg';  
+import trailImg from '../assets/images/trail.jpg';
+import valleyImg from '../assets/images/valley.jpg';
+import bridgeImg from '../assets/images/bridge.jpg';
+import cultureImg from '../assets/images/culture.jpg';
 
 const Destination = () => {
   const [activeTab, setActiveTab] = useState('tab1'); 
@@ -8,35 +13,35 @@ const Destination = () => {
       id: 'tab1',
       title: `Ideal Gateway`,
       description: `Nagarkot offers peace, forests, and panoramic views near Kathmandu.`,
-      image: `/images/waterFall.jpg`,
+      image: waterfallImg,
       detail: `Just a short drive from Kathmandu, Nagarkot is the perfect escape for those seeking tranquillity and breathtaking panoramic views amidst lush forests.`,
     },
     {
       id: 'tab2',
       title: `Scenic Hiking Trails`,
       description: `Nagarkot offers scenic hikes through villages, culture, and diverse nature.`,
-      image: `/images/trail.jpg`,
+      image: trailImg,
       detail: `Nagarkot offers scenic hikes through villages, culture, and diverse nature.`,
     },
     {
       id: 'tab3',
       title: `Fresh Air and Natural Beauty`,
       description: `Breathe mountain air, relax, and rejuvenate in Nagarkot's serenity.`,
-      image: `/images/valley.jpg`,
+      image: valleyImg,
       detail: `Breathe mountain air, relax, and rejuvenate in Nagarkot's serenity.`,
     },
     {
       id: 'tab4',
       title: `Adventure for All Levels`,
       description: `Nagarkot trails suit all hikers, showcasing Nature's beauty and culture.`,
-      image: `/images/bridge.jpg`,
+      image: bridgeImg,
       detail: `Whether you're a novice or an experienced hiker, Nagarkot's trails cater to all skill levels, providing accessible routes that highlight the area's natural beauty and cultural heritage.`,
     },
     {
       id: 'tab5',
       title: `Spend Quality Time with Local Families`,
       description: `Experience authentic culture through food, crafts, farming, and shared traditions.`,
-      image: `/images/culture.jpg`,
+      image: cultureImg,
       detail: `Share stories, traditions, and meals while learning about their daily lives. Engage in activities like cooking traditional dishes, crafting tapari (leaf plates), or joining farming tasks. This authentic cultural exchange creates unforgettable memories and a pure sense of connection.`,
     },
   ];
@@ -70,7 +75,6 @@ const Destination = () => {
               <div className='w-full flex items-center justify-center'>
               <img
                 src={tab.image}
-                onError={(e) => { e.target.src = 'https://via.placeholder.com/400x300'; }}
                 className="rounded-xl w-full object-cover"
                 alt={tab.title.toLowerCase()}
               />
@@ -87,5 +91,3 @@ const Destination = () => {
 };
 
 export default Destination;
-
-

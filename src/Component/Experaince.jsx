@@ -2,8 +2,13 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import touristImg from '../assets/images/tourist.jpg'; 
+import paintingImg from '../assets/images/painting.jpg';
+import cyclingImg from '../assets/images/cycling.jpg';
+import mudclayImg from '../assets/images/mudclay.jpg';
+import cookingImg from '../assets/images/cooking.jpg';
 
-const Experaince = () => {
+const Experience = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -16,11 +21,11 @@ const Experaince = () => {
   };
 
   const experiences = [
-    { img: '/images/tourist.jpg', title: 'Craft your own souvenir' },
-    { img: '/images/painting.jpg', title: 'Mask Painting at Bhaktapur' },
-    { img: '/images/cycling.jpg', title: 'Panauti Bike Tour' },
-    { img: '/images/mudclay.jpg', title: 'Pottery in Thimi' },
-    { img: '/images/cooking.jpg', title: 'Cook Dal Bhat with Local Women' },
+    { img: touristImg, title: 'Craft your own souvenir' },
+    { img: paintingImg, title: 'Mask Painting at Bhaktapur' },
+    { img: cyclingImg, title: 'Panauti Bike Tour' },
+    { img: mudclayImg, title: 'Pottery in Thimi' },
+    { img: cookingImg, title: 'Cook Dal Bhat with Local Women' },
   ];
 
   return (
@@ -55,4 +60,4 @@ const Experaince = () => {
   );
 };
 
-export default Experaince;
+export default Experience;

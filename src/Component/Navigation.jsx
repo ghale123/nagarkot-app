@@ -1,10 +1,11 @@
 import React from 'react'
+import nagarkotLogo from '../assets/images/nagarkotLogo.png';  
 
 const Navigation = () => {
   return (
     <nav className='left-0 w-full fixed top-0  bg-white shadow-md  z-50 flex justify-around  py-6'>
       <div className='logo'>
-        <img src="/images/nagarkotLogo.png" alt="logo" className='h-[60px]'/>
+        <img src={nagarkotLogo} alt="logo" className='h-[60px]'/>
       </div> 
       <ul className='flex items-center gap-9'>
         <li href="#">About Us</li>
@@ -18,4 +19,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation;
+export default Navigation

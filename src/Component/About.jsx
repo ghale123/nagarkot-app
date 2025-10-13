@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react'
+import photo1 from '../assets/images/photo1.jpg';  
 
 const About = () => {
   return (
     <section className="min-h-screen mx-10 md:mx-52 py-20">
       <div className="flex flex-col md:flex-row gap-10 items-stretch">
-        {/* Image */}
+        
         <div className="flex-1">
           <img
-            src="/images/photo1.jpg"
+            src={photo1}
             alt="Nagarkot Homestay"
             className="w-full h-full object-cover rounded-2xl"
           />
         </div>
 
-        {/* Text Block */}
         <div className="flex-1 flex flex-col justify-center gap-6 bg-white rounded-2xl p-6">
           <h1 className="text-3xl md:text-4xl font-semibold text-gray-800">
             A Quick and Tranquil Escape from Kathmandu

@@ -1,4 +1,12 @@
 import React from 'react'
+import governmentImg from '../assets/images/government.png';  
+import changunarayanImg from '../assets/images/changunarayan.jpg';
+import ntbImg from '../assets/images/ntb.jpg';
+import dcaImg from '../assets/images/dca.jpg';
+import friendsImg from '../assets/images/friends.jpg';
+import communityImg from '../assets/images/community.png';
+import homestayImg from '../assets/images/homestay.jpg';
+import homestaydevelopmentImg from '../assets/images/homestaydevelopment.jpg';
 
 const Partner = () => {
   return (
@@ -14,28 +22,28 @@ const Partner = () => {
 
       <div className='flex flex-wrap justify-center w-full h-full gap-6'>
         <div className="border  border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/government.png" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={governmentImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/cchangunarayan.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={changunarayanImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border  border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/ntb.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={ntbImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/dca.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={dcaImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm ">
-          <img src="/images/friends.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={friendsImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/community.png" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={communityImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm">
-          <img src="/images/homestay.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={homestayImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
         <div className="border border-white rounded-xl p-3 flex items-center justify-center shadow-sm ">
-          <img src="/images/homestaydevelopment.jpg" alt="logo" className='h-20 w-40 object-contain' />
+          <img src={homestaydevelopmentImg} alt="logo" className='h-20 w-40 object-contain' />
         </div>
       </div>
     </div>

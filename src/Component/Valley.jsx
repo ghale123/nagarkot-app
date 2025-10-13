@@ -1,11 +1,12 @@
 import React from 'react'
+import valleyImage from '../assets/images/valleyImage.jpg';  
 
 const Valley = () => {
   return (
     <div className='px-8 mt-10'>
     <div className="relative w-full h-[600px]">
       <img 
-        src="/images/valleyImage.jpg" 
+        src={valleyImage} 
         alt="valley"  
         className="w-full h-full rounded-lg object-cover"
       />
